@@ -1,0 +1,428 @@
+@font-face {
+    font-family: "Poppins-SemiBold";
+        src: url('Poppins-SemiBold.TTF');
+    }
+
+@font-face {
+    font-family: "Poppins-ExtraLight";
+        src: url('Poppins-ExtraLight.TTF');
+    }
+
+
+body{
+ background-color: rgba(2,7,17,1); 
+ }
+
+
+
+
+#Nav {
+ background-color: transparent;
+ position: relative;
+ top: 5px;
+}
+
+.navbar-toggler{
+background: -webkit-linear-gradient(50deg, #FDAE8F, #FD1C68);
+border: none;
+}
+
+
+/*Home Page*/
+
+.warnaln{
+ color: white !important;
+}
+
+.navbar-brand{
+     font-family: Poppins-SemiBold !important;
+     font-size: 30px;
+     color: white !important;
+
+}
+.nav-link{
+ color: white !important;
+ position: relative;
+   left: 100px;
+    font-family: Poppins-SemiBold;
+}	
+
+#login {
+ position: relative;
+left: 100px;
+}
+
+.kotakimg1_1{	
+                     width: 600px;
+                     height: 500px;
+                     position: relative;
+                     top: -350px;
+                     left: 250px;
+
+}
+
+.img1 {
+     
+     position: absolute;
+     top: 35%;
+     left:50%;
+
+}
+
+#bg1_1{
+     position: relative;
+     top: 0%;
+     right: 0%;
+}
+
+.bg1 {
+   
+   background-size: cover;
+   opacity: 0.4000500189604645;
+   position: absolute;
+   filter: blur(15px);
+   -webkit-filter: blur(50px);
+   top: 0%;
+   right: 0%;
+}
+
+.isi {
+
+text-align: justify;
+font-family: Poppins-SemiBold;
+font-size: 45px;
+color: white;
+position: relative;
+top: 200px;
+
+
+}
+
+#nft {
+     background: -webkit-linear-gradient(50deg, #FDAE8F, #FD1C68);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+
+}
+
+.text1 {
+ font-family: sans-serif;
+ font-size: 20px;
+ 
+}
+
+.text2 {
+ font-family: Poppins-SemiBold;
+ font-size: 40px;
+ text-align: center;
+ 
+}
+
+.btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited {
+background-image: linear-gradient(to right, #FDAE8F, #FD1C68) !important;
+color: #070C0E;
+font-family: Poppins-SemiBold !important;
+}
+
+.btn-outline, .btn-outline:visited, .btn-outline:active {
+color: #FC4F4F;  
+border-color: #FC4F4F;
+outline-color: #FC4F4F;
+font-family: Poppins-SemiBold !important;
+text-align: center;
+border-radius: 20px;
+}
+
+.btn-outline:hover{
+background-color: #FC4F4F;
+border-color: #FC4F4F;
+outline-color: #FC4F4F;
+}
+
+
+#btn1{
+position: relative;
+top: 250px;
+
+}
+#btn2 {
+position: relative;
+top: 200px;
+left: 15px;
+}
+
+#isi2 {
+width: 850px;
+height: 40px;
+position: relative;
+top: 100px;
+left:150px ;
+font-family: Poppins-SemiBold;
+font-size: 50px;
+color: white;
+text-align: center;
+}
+
+#kotak_icon {
+                 width: 100%;
+                 height: 500px;
+                 position: relative;
+                 top: -300px;
+                 
+}
+
+
+
+
+.lingkaran1 {
+                 width: 90px;
+                 height: 90px;
+                 background: -webkit-linear-gradient(50deg, #5B49CF,#23D3A4);
+                 border-radius: 100%;
+                 position: absolute;
+                 top: -20px;
+                 left:70px ;
+}
+
+.lingkaran2 {
+                 width: 90px;
+                 height: 90px;
+                 background: -webkit-linear-gradient(45deg, #739EEC, #FF8C9F);
+                 border-radius: 100%;
+                 position: absolute;
+                 top: -20px;
+                 left:373px ;
+}
+
+.lingkaran3 {
+                 width: 90px;
+                 height: 90px;
+                 background: -webkit-linear-gradient(50deg, #FE6F2D,#FDCE38);
+                 border-radius: 100%;
+                 position: absolute;
+                 top: -20px;
+                 left:675px ;
+}
+
+.lingkaran4 {
+                 width: 90px;
+                 height: 90px;
+                 background: -webkit-linear-gradient(50deg, #2EA3F2,#A651FB);
+                 border-radius: 100%;
+                 position: absolute;
+                 top: -20px;
+                 left:962px ;
+}
+
+
+#icon1 {
+
+         position: absolute;
+         left: 90px;
+         color: white;
+         
+}
+
+#icon2 {
+
+         position: absolute;
+         left: 395px;
+         color: white;
+}
+
+#icon3 {
+         position: absolute;
+         left: 695px;
+         color: white;
+}
+
+#icon4 {
+         position: absolute;
+         left: 980px;
+         color: white;
+}
+
+
+#t1 {
+ 
+ text-align: justify;
+ font-family: Poppins-SemiBold;
+ font-size: 20px;
+ position: absolute;
+ top: 100px;
+ left: 25px;
+ color: white;
+
+}
+
+
+#t1_1 {
+ width: 250px;
+ text-align: center;
+ height: 300px;
+ font-family: Poppins-ExtraLight;
+ font-size: 15px;
+ line-height:25px;
+ position: absolute;
+ top: 150px;
+ color: white;
+}
+
+
+#t2 {
+ width: 275px;
+ text-align: justify;
+ font-family: Poppins-SemiBold;
+ font-size: 20px;
+ position: absolute;
+ top: 100px;
+ left: 305px;
+ color: white;
+
+}
+
+
+#t2_2 {
+ width: 270px;
+ text-align: center;
+ height: 300px;
+ font-family: Poppins-ExtraLight;
+ font-size: 15px;
+ line-height:25px;
+ position: absolute;
+ top: 150px;
+ left: 285px ;
+ color: white;
+}
+
+#t3 {
+ width: 175px;
+ text-align: justify;
+ font-family: Poppins-SemiBold;
+ font-size: 20px;
+ position: absolute;
+ top: 100px;
+ left: 655px;
+ color: white;
+
+}
+
+
+#t3_3 {
+ width: 270px;
+ text-align: center;
+ height: 300px;
+ font-family: Poppins-ExtraLight;
+ font-size: 15px;
+ line-height:25px;
+ position: absolute;
+ top: 150px;
+ left: 590px;
+ color: white;
+}
+
+
+#t4 {
+ width: 175px;
+ text-align: justify;
+ font-family: Poppins-SemiBold;
+ font-size: 20px;
+ position: relative;
+ top: 100px;
+ left: 925px;
+ color: white;
+
+}
+
+
+#t4_4 {
+ width: 270px;
+ text-align: center;
+ height: 300px;
+ font-family: Poppins-ExtraLight;
+ font-size: 15px;
+ line-height:25px;
+ position: absolute;
+ top: 150px;
+ left:880px ;
+ color: white;
+}
+
+.kotakbg1_1{
+                 width: 100%px;
+                 height: 500px;
+                 position: relative;
+                 top:950px;
+                 left: -50px;
+                 
+                 
+}
+
+.bg2 {
+   
+   background-size: cover;
+   opacity: 0.4000500189604645;
+   position: absolute;
+   filter: blur(30px);
+   -webkit-filter: blur(50px);
+   bottom: 0;
+   left: 0px;
+   
+
+ }
+
+
+
+
+/* index */
+
+#footerindex {
+                     color: white !important;
+                     margin-top: -300px;
+}
+
+
+
+/* bantuan */
+
+#footerbantuan {
+                     color: white !important;
+                     margin-top: 5%;
+}
+
+/*Hubungi*/
+
+#footerhubungi {
+                     color: white !important;
+                     margin-top: 100px;
+}
+
+/*Profil*/
+
+#footerprofil {
+                     color: white !important;
+                     margin-top:-5% ;
+}
+
+
+
+
+.social-link {
+width: 30px;
+height: 30px;
+border: 1px solid #ddd;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #666;
+border-radius: 50%;
+transition: all 0.3s;
+font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+background: #ddd;
+text-decoration: none;
+color: #555;
+}
